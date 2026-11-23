@@ -31,7 +31,7 @@ from pathlib import Path
 
 import requests
 
-ORIGIN = os.getenv("ORIGIN", "JFK")
+ORIGIN = os.getenv("ORIGIN", "EWR")
 DEST = os.getenv("DEST", "BLR")
 DEPART = os.getenv("DEPART", "2027-01-01")
 RETURN = os.getenv("RETURN", "2027-01-10")
